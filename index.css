@@ -10,6 +10,7 @@
 }
 .jubotron-mobile {
   display: none;
+  background-color: #e9ecef;
 }
 .jubotron-desktop {
   height: 73px;
@@ -38,6 +39,7 @@
   display: flex;
   width: 100%;
 }
+
 .header-content {
   max-width: 860px;
   height: 100%;
@@ -157,18 +159,18 @@
 }
 .shopbtn {
   width: 100px;
-  height: 30px;
+  height: 38px;
   text-decoration: none;
   color: #1d1d1d;
   background-color: #ffbb38;
   display: inline-block;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 17px;
   font-family: "Inter", sans-serif;
   font-weight: 550;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 2px;
 }
 

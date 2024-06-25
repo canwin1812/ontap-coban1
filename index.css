@@ -2,6 +2,34 @@
   padding: 0;
   margin: 0;
 }
+.center {
+  justify-content: center;
+  height: 85px;
+  width: 100%;
+  display: flex;
+}
+.jubotron-mobile {
+  display: none;
+}
+.jubotron-desktop {
+  height: 73px;
+  width: 100%;
+  background-color: #34a853;
+  justify-content: center;
+  display: flex;
+}
+@media screen and (max-width: 786px) {
+  .jubotron-desktop {
+    display: none;
+  }
+  .center {
+    display: none;
+  }
+  .jubotron-mobile {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .header {
   position: relative;
@@ -17,6 +45,7 @@
   position: relative;
   justify-content: center;
 }
+
 .menu {
   height: 54px;
   width: 100%;
@@ -37,7 +66,7 @@
   padding-top: 15px;
   font-size: 12px;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 550;
 }
 .sdt {
@@ -48,12 +77,6 @@
   display: flex;
 }
 
-.center {
-  justify-content: center;
-  height: 85px;
-  width: 100%;
-  display: flex;
-}
 .logo {
   margin-top: 30px;
 }
@@ -85,7 +108,7 @@
   text-align: center;
   color: aliceblue;
   text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Inter" sans-serif;
   padding-top: 10px;
   margin-left: 60px;
   margin-bottom: 20px;
@@ -95,14 +118,9 @@
   height: 85px;
   width: 236px;
 }
-.jubotron {
-  height: 73px;
-  width: 100%;
-  background-color: #34a853;
-  display: flex;
-}
+
 .menu1 {
-  width: 200px;
+  width: 220px;
   height: 53px;
 }
 .dropdown {
@@ -111,45 +129,49 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  width: 100%;
+  width: 200px;
   height: 100%;
   padding: 0 2rem;
   border: none;
   outline: none;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 5px;
   border-radius: 2px;
 }
 .menu2 {
+  display: flex;
   width: 500px;
-  height: 27px;
-  margin-left: 60px;
-  margin-top: 25px;
+  height: 73px;
   color: aliceblue;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  font-size: 14px;
+  align-items: center;
 }
 .menu2 li {
   display: inline;
-  margin: 0 5px;
+  margin: 0 8px;
 }
 .menu2 li a {
   color: white;
 }
 .shopbtn {
-  width: 85px;
-  font-size: 14px;
-  height: 35px;
-  background-color: #ffbb38;
-  margin-top: 10px;
-  text-align: center;
-  color: aliceblue;
+  width: 100px;
+  height: 30px;
   text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
-  padding-top: 15px;
-  margin-left: 10px;
-  font-weight: 600;
+  color: #1d1d1d;
+  background-color: #ffbb38;
+  display: inline-block;
+  align-items: center;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  font-size: 15px;
   border-radius: 2px;
 }
+
 .swiper-hero {
   width: 100%;
   height: 450px;

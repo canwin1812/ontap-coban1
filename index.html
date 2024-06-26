@@ -9,56 +9,35 @@
   </head>
   <body>
     <section class="header">
-      
       <div class="header-content">
         <div class="menu">
-          <div class="menu-ul">
-            <ul>
-              <li><a href="">Account</a></li>
-              <li><a href="">Track Order</a></li>
-              <li><a href="">Support</a></li>
-            </ul>
+          <div class="menu0">
+            <div class="header-profile">
+              <a href=""><span>Accont</span></a>
+              <a href=""><span>Track Oder</span></a>
+              <a href=""><span>Support</span></a>
+            </div>
           </div>
-          <div class="sdt">
-            <i
-              class="fa-solid fa-phone"
-              style="
-                font-size: 9px;
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                right: 160px;
-                padding-top: 20px;
-              "
-            >
-              + 098608 1441</i
-            >
-            <i
-              class="fa-regular fa-envelope"
-              style="
-                font-size: 13px;
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                right: 10px;
-                padding-top: 20px;
-              "
-            >
-              <a
-                href=""
-                style="
-                  text-decoration: none;
-                  font-family: 'Times New Roman', Times, serif\\;
-                  font-size: 10px;
-                  color:#1d1d1d;
-                
-                  
-                "
-                >Phanquang1812@gmail.com</a
-              ></i
-            >
+          <div class="sdt1">
+            <div class="sdt">
+              <a href="" class="top-contact">
+                <i
+                  class="fa-solid fa-phone"
+                  style="color: green; font-size: 14px"
+                ></i>
+                <span>+ 098608 1441</span>
+              </a>
+              <a href="" class="driver1">
+                <i
+                  class="fa-regular fa-envelope"
+                  style="color: green; font-size: 14px"
+                ></i>
+                <span>Quang2311@gmail.com</span>
+              </a>
+            </div>
           </div>
         </div>
+
         <div class="center">
           <div class="logo">
             <img
@@ -67,43 +46,93 @@
             />
           </div>
           <div class="search">
-            <input
-              type="text"
-              placeholder="   Search Product...."
-              style="width: 158px; height: 40.5px; border: none; outline: none"
-            />
-            <div class="driver"></div>
-            <div class="allcat">
-              <button type="button" onclick="selectBoxHandler('allcat')" <span class="item-text" style="border: none;outline: none; padding-left: 15px;color: gray;background-color: aliceblue;">All Categories</span>
-              </button>
+            <div class="search1">
+              <input
+                type="text"
+                placeholder="Search Product..."
+                style="
+                  color: #8e8e8e;
+                  border: none;
+                  outline: none;
+                  background: transparent;
+                  padding: 12px;
+                "
+              />
+              <div class="divider"></div>
+              <div id="allcat">
+                <button type="button" onclick="SelectBoxHandler('allcat')">
+                  <span class="item-text">All Categories</span>
+                  <div class="bam1">
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                  </div>
+                </button>
+              </div>
+              <a href="" class="bam">Search</a>
             </div>
-            <a href="" class="anh2">Search</a>
           </div>
-          
+
           <div class="abc">
-            <i class="fa-solid fa-spinner" style="position: absolute;top: 0;bottom: 0;right:150px;padding-top: 90px;"></i>
-            <i class="fa-regular fa-heart" style="position: absolute;top: 0;bottom: 0;right:100px;padding-top: 90px;"></i>
-            <i class="fa-solid fa-lock" style="position: absolute;top: 0;bottom: 0;right:50px;padding-top: 90px;"></i>
-            <i class="fa-solid fa-user" style="position: absolute;top: 0;bottom: 0;right:0px;padding-top: 90px;"></i>
+            <div class="header-cart">
+              <div class="header-campair">
+                <i class="fa-solid fa-arrows-rotate"></i>
+              </div>
+              <div class="header-campair1">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="header-campair2">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+              <div class="header-campair3">
+                <i class="fa-regular fa-user"></i>
+              </div>
+            </div>
           </div>
         </div>
         <div class="jubotron-mobile">
           <div>
-            <i class="fa-solid fa-list" style="position: absolute;left: 0;padding-top: 40px;padding-left: 20px;"></i>
-            <i class="fa-solid fa-lock" style="position: absolute;right: 0;padding-top: 40px;padding-right: 20px;"></i>
+            <i
+              class="fa-solid fa-list"
+              style="
+                position: absolute;
+                left: 0;
+                padding-top: 40px;
+                padding-left: 20px;
+              "
+            ></i>
+            <i
+              class="fa-solid fa-lock"
+              style="
+                position: absolute;
+                right: 0;
+                padding-top: 40px;
+                padding-right: 20px;
+              "
+            ></i>
           </div>
           <div class="logo">
             <img
               src="https://quomodosoft.com/html/ecoshop/assets/images/logos/logo.webp"
               alt=""
             />
-          </div> 
+          </div>
         </div>
         <div class="jubotron-desktop">
           <div class="menu1">
-            <button class="dropdown" onclick="tooglmenu"> <span style="font-weight: 600;">All Categories</span>
-              <span><i class="fa-solid fa-list" style="position: absolute;top: 0px;left: 20px;padding-top: 169px;"></i></span>
-              <span><i class="fa-solid fa-chevron-down" style="position: absolute;top: 0px;right: 650px;padding-top: 169px;""></i></span>
+            <button class="dropdown" onclick="tooglmenu">
+              <span class="dropdown-icon"
+                ><i class="fa-solid fa-list"></i>
+              </span>
+              <span class="list-text"> All Categories</span>
+              <span
+                ><i
+                  class="fa-solid fa-chevron-down"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                ></i
+              ></span>
             </button>
           </div>
           <div class="menu2">
@@ -117,7 +146,10 @@
               <li>Contact</li>
             </ul>
           </div>
-          <a href="" class="shopbtn" > Seller Login</a>
+
+          <div class="shopbtn1">
+            <a href="" class="shopbtn"> Seller Login</a>
+          </div>
         </div>
         <!-- <div class="swiper-hero">
           <div class="hero1">
@@ -166,9 +198,7 @@
               <p>Original Product Guarenteed</p>
              </div>
              </div> -->
-
       </div>
-    
     </section>
   </body>
 </html>

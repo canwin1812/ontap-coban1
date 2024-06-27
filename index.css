@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Inter", sans-serif;
 }
 .center {
   justify-content: center;
@@ -8,10 +9,20 @@
   width: 100%;
   display: flex;
 }
+.center-content {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
 .jubotron-mobile {
   display: none;
   background-color: #e9ecef;
+  width: 100%;
+  height: 48px;
 }
+
 .jubotron-desktop {
   height: 73px;
   width: 100%;
@@ -20,8 +31,18 @@
   display: flex;
   align-items: center;
 }
+.menu-desktop {
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #34a853;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
 @media screen and (max-width: 786px) {
   .jubotron-desktop {
+    width: 100%;
     display: none;
   }
   .center {
@@ -29,7 +50,8 @@
   }
   .jubotron-mobile {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
@@ -42,26 +64,34 @@
 }
 
 .header-content {
-  max-width: 860px;
-  height: 100%;
   width: 100%;
+  height: 100%;
   position: relative;
   justify-content: center;
 }
 
 .menu {
-  height: 74px;
+  max-height: 74px;
   width: 100%;
+  display: flex;
+  background-color: #f8f9fa;
+}
+.menu-content {
+  max-width: 1200px;
   display: flex;
   background-color: #f8f9fa;
   flex-direction: row;
   justify-content: space-between;
+  margin: auto;
+  width: 100%;
 }
 .menu0 {
+  width: 100%;
   height: 74px;
   width: 230px;
   display: flex;
 }
+
 .header-profile {
   width: 229.25px;
   height: 27px;
@@ -74,9 +104,9 @@
 .header-profile a {
   text-decoration: none;
   color: #1d1d1d;
-  font-size: 15px;
-  font-weight: 600;
-  font-family: "Inter" sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
 }
 .sdt1 {
   height: 74px;
@@ -86,6 +116,7 @@
 }
 .sdt {
   width: 329.54px;
+  width: 100%;
   height: 54px;
   display: flex;
   justify-content: center;
@@ -103,7 +134,7 @@
   align-items: center;
   gap: 0.5rem;
   color: #1d1d1d;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Inter", sans-serif;
 }
 .driver1 {
@@ -127,18 +158,17 @@
 .logo img {
   width: 182px;
   height: 33px;
-
   display: flex;
   justify-content: center;
 }
 .search {
-  width: 440px;
+  width: 800px;
   height: 74px;
   display: flex;
   justify-content: center;
 }
 .search1 {
-  width: 480px;
+  width: 516px;
   height: 44px;
   display: flex;
   justify-content: center;
@@ -147,15 +177,20 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 0.5rem;
+  align-items: center;
 }
 .divider {
   width: 1px;
   background: #eee;
-  height: 2.5rem;
+  height: 25px;
+  align-items: center;
+  justify-content: space-between;
 }
 #allcat {
   flex: 1 1 0%;
   align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .item-text {
   width: 120px;
@@ -169,33 +204,35 @@
   height: 2.5rem;
 }
 .search1 button {
-  width: 100%;
+  width: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 0px;
-  padding: 0rem;
   color: #797979;
-  height: 100%;
+  height: 18px;
   background-color: transparent;
   border: none;
 }
 .bam1 {
-  height: 20px;
+  height: 28px;
   width: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .bam {
+  height: 100%;
+  width: 100%;
   background-color: #34a853;
   text-decoration: none;
   justify-content: center;
   display: flex;
   align-items: center;
   color: #f8f9fa;
-  font-weight: 600;
+  font-weight: 500;
+  border-radius: 3px;
+  font-size: 14px;
 }
 .anh2 {
   width: 84px;
@@ -217,17 +254,18 @@
   height: 85px;
   width: 216px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
 }
 .header-cart {
   width: 176px;
   height: 27px;
   display: flex;
-  justify-content: center;
-  margin: auto;
+  justify-content: space-between;
   gap: 0.5rem;
 }
 .header-campair {
+  font-size: 20px;
   width: 29px;
   height: 24.19px;
   display: flex;
@@ -235,6 +273,7 @@
   align-items: center;
 }
 .header-campair1 {
+  font-size: 20px;
   width: 29px;
   height: 24.19px;
   display: flex;
@@ -242,6 +281,7 @@
   justify-content: center;
 }
 .header-campair2 {
+  font-size: 20px;
   width: 29px;
   height: 24.19px;
   display: flex;
@@ -249,14 +289,20 @@
   justify-content: center;
 }
 .header-campair3 {
+  font-size: 20px;
   width: 29px;
   height: 24.19px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.bo-menu {
+  width: 100%;
+  height: 53px;
+  display: flex;
+}
 .menu1 {
-  width: 220px;
+  width: 270px;
   height: 53px;
   display: flex;
   justify-content: center;
@@ -275,18 +321,17 @@
   background: transparent;
   border: none;
   justify-content: space-between;
-
   width: 100%;
   height: 100%;
   padding: 0 2rem;
 }
+
 .list-text {
-  width: 120px;
+  width: 160px;
   height: 50px;
   display: flex;
   color: #1d1d1d;
   align-items: center;
-  justify-content: center;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
@@ -300,32 +345,34 @@
 }
 .menu2 {
   display: flex;
-  width: 500px;
-  height: 73px;
+  width: 615px;
+  height: 27px;
   color: aliceblue;
   font-family: "Inter", sans-serif;
   font-weight: 550;
   font-size: 14px;
   align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 .menu2 li {
   display: inline;
-  margin: 0 8px;
+  margin: 0 15px;
 }
 .menu2 li a {
   color: white;
 }
 .shopbtn1 {
-  width: 120px;
-  height: 74px;
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .shopbtn {
-  height: 60px;
+  height: 49px;
   display: flex;
-  width: 90px;
+  width: 159px;
   text-decoration: none;
   justify-content: center;
   align-items: center;
@@ -372,7 +419,7 @@
 }
 .wrapper1 {
   color: #1d1d1d;
-  font-family: "League Spartan", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   margin: 0;
   font-size: 3.1rem;
@@ -390,7 +437,7 @@
   padding-top: 10px;
   color: #1d1d1d;
   font-weight: 500;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Inter", sans-serif;
   background-color: #ffbb38;
   text-decoration: none;
 }
@@ -420,7 +467,7 @@
   z-index: 10;
   padding-left: 10px;
   padding-top: 25px;
-  font-family: "League Spartan", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
 }
 .free1 {
@@ -436,7 +483,7 @@
   z-index: 10;
   padding-left: 10px;
   padding-top: 25px;
-  font-family: "League Spartan", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
 }
 .free2 {
@@ -452,7 +499,7 @@
   z-index: 10;
   padding-left: 10px;
   padding-top: 25px;
-  font-family: "League Spartan", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
 }
 .free3 {
@@ -468,6 +515,6 @@
   z-index: 10;
   padding-left: 10px;
   padding-top: 25px;
-  font-family: "League Spartan", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
 }

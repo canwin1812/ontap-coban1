@@ -331,7 +331,8 @@
   justify-content: unset;
   background: white;
   color: #1d1d1d;
-
+  position: relative;
+  display: inline-block;
   border-radius: 5px 5px 0px 0px;
 }
 
@@ -346,15 +347,294 @@
   height: 100%;
   padding: 0 2rem;
 }
+.dropdown-content {
+  display: none;
+  position: absolute !important;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.menu1:hover .dropdown-content {
+  display: block;
+}
+.menu1:hover .list-text {
+  background-color: #f8f9fa;
+}
+.archor {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.archor-icon {
+  width: 40px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.archor1 {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  color: #1d1d1d;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.controller {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.controller1 {
+  width: 40px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.controller2 {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  color: #1d1d1d;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.iphone {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.iphone1 {
+  width: 40px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.iphone2 {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  color: #1d1d1d;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.house {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.house1 {
+  width: 40px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.house2 {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  color: #1d1d1d;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.basketball {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.basketball1 {
+  width: 40px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.basketball2 {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  color: #1d1d1d;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.moto {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.moto1 {
+  width: 40px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.moto2 {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  color: #1d1d1d;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.person {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.person1 {
+  width: 40px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.person2 {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  color: #1d1d1d;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.beetles {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.beetles1 {
+  width: 40px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.beetles2 {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  color: #1d1d1d;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.setting {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.setting2 {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  color: #1d1d1d;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.setting1 {
+  width: 40px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .list-text {
   width: 160px;
   height: 50px;
   display: flex;
   color: #1d1d1d;
   align-items: center;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border: none;
 }
 .dropdown-icon {
   width: 20px;

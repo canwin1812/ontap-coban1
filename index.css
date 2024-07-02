@@ -348,7 +348,9 @@
   padding: 0 2rem;
 }
 .dropdown-content {
-  display: none;
+  transition: all 0.6s;
+  height: 0;
+  overflow: hidden;
   position: absolute !important;
   right: 0;
   background-color: #f9f9f9;
@@ -369,15 +371,108 @@
 
 .menu1:hover .dropdown-content {
   display: block;
+  height: 400px;
 }
 .menu1:hover .list-text {
   background-color: white;
 }
+.dropdown-content:hover .setting2:hover a:hover {
+  color: white;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .beetles2:hover a:hover {
+  color: #eee;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .person2:hover a:hover {
+  color: #eee;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .moto2:hover a:hover {
+  color: #eee;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .bread3:hover a:hover {
+  color: #eee;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .basketball2:hover a:hover {
+  color: #eee;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .house2:hover a:hover {
+  color: #eee;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .iphone2:hover a:hover {
+  color: #eee;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .controller2:hover a:hover {
+  color: #eee;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .archor1:hover a:hover {
+  color: #eee;
+  transition: all 0.5s;
+}
+.dropdown-content:hover .archor3:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.dropdown-content:hover .controller3:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.dropdown-content:hover .iphone3:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.dropdown-content:hover .house3:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.dropdown-content:hover .basketball3:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.dropdown-content:hover .bread:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.dropdown-content:hover .moto3:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.dropdown-content:hover .person3:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.dropdown-content:hover .beetles3:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.dropdown-content:hover .setting3:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+
 .archor3 {
   width: 100%;
   height: 40px;
   display: flex;
   justify-content: center;
+  transition: all 0.5s;
 }
 .archor {
   width: 230px;

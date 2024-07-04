@@ -62,12 +62,15 @@
 #mobile-side-menu {
   display: none;
 }
+
 .mobile-side-menu-content {
+  overflow-y: auto;
   width: 280px;
   height: 100vh;
   background-color: white;
   border: 1px white solid;
   position: relative;
+  transition: all 0.6s;
   z-index: 1;
 }
 
@@ -390,7 +393,6 @@
   text-decoration: none;
   display: block;
 }
-
 .menu1:hover .dropdown-content {
   background-color: white;
 }
@@ -1029,6 +1031,7 @@
   font-weight: 500;
 }
 .canvas {
+  transition: all 0.6s;
   position: absolute !important;
   right: 0;
   background-color: white;

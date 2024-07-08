@@ -936,43 +936,38 @@
   display: flex;
 }
 .left {
-  width: 430px;
+  width: 656px;
   height: 100%;
 }
 .right {
-  width: 430px;
+  width: 656px;
   height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .wrapper {
   color: #34a853;
-  font-size: 25px;
-  text-transform: uppercase;
-  padding-left: 20px;
-  padding-top: 70px;
+  font-size: 2.1rem;
+  width: 656px;
+  height: 51px;
   display: block;
-  margin-bottom: 1rem;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
 .wrapper1 {
   color: #1d1d1d;
-  font-family: "Inter", sans-serif;
+  font-family: "League Spartan", sans-serifs;
   font-weight: 700;
-  margin: 0;
-  font-size: 3.1rem;
-  padding-left: 19px;
+  font-size: 4rem;
+  width: 656px;
+  height: 273px;
 }
 .shopnow {
   font-size: 15px;
-  display: block;
-  margin-top: 30px;
-  margin-left: 20px;
-  border-radius: 4px;
-  width: 120px;
-  height: 30px;
+  border-radius: 5px;
   text-align: center;
-  padding-top: 10px;
+  padding: 17px 35px;
   color: #1d1d1d;
   font-weight: 500;
   font-family: "Inter", sans-serif;
@@ -980,11 +975,8 @@
   text-decoration: none;
 }
 .right img {
-  width: 380px;
-  height: 250px;
-  display: block;
-  padding-top: 120px;
-  padding-left: 20px;
+  width: 650px;
+  height: 400px;
 }
 .last {
   height: 100px;
@@ -1148,4 +1140,157 @@
 }
 .pop:hover::after {
   width: 100%;
+}
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 1900px;
+  justify-content: space-between;
+  display: flex;
+}
+.heroone {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.container {
+  max-width: 1300px;
+  height: 1200px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+.spetty-hero {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  list-style: none;
+}
+.spetty-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.hero-slide {
+  width: 1300px;
+  height: 600px;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+.slide-wrapper {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.slide-wrapper1 {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.left1 {
+  width: 656px;
+  height: 100%;
+  padding-top: 220px;
+}
+.right1 {
+  width: 656px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-content {
+  color: #34a853;
+  font-size: 2.1rem;
+  width: 656px;
+  height: 51px;
+  display: block;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.wrapper-content1 {
+  color: #1d1d1d;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  width: 656px;
+  height: 273px;
+}
+.slide-wrapper2 {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.left2 {
+  width: 656px;
+  height: 100%;
+  margin-top: 200px;
+}
+.right2 {
+  width: 656px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right2 img {
+  height: 600px;
+}
+.wrapper-content3 {
+  color: #34a853;
+  font-size: 2.1rem;
+  width: 656px;
+  height: 51px;
+  display: block;
+  text-transform: uppercase;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+}
+.wrapper-content2 {
+  color: #1d1d1d;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  width: 656px;
+  height: 273px;
+}
+.spanie {
+  width: 1300px;
+  height: 15px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.nutbam {
+  display: block;
+  width: 22px;
+  height: 7px;
+  background-color: #34a853;
+  border-radius: 30px;
+}
+.nutbam1 {
+  display: block;
+  width: 22px;
+  height: 7px;
+  background-color: #34a853;
+  border-radius: 30px;
+}
+.nutbam2 {
+  display: block;
+  width: 22px;
+  height: 7px;
+  background-color: #34a853;
+  border-radius: 30px;
 }

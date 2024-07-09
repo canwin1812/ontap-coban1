@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 .center {
   justify-content: center;
@@ -79,6 +80,12 @@
 .hidden {
   display: none !important;
 }
+@media screen and (max-width: 1000px) {
+  .slide-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 @media screen and (max-width: 786px) {
   .jubotron-desktop {
     width: 100%;
@@ -114,7 +121,7 @@
 .header {
   position: relative;
   justify-content: space-between;
-  height: 250px;
+  height: 350px;
   display: flex;
   width: 100%;
 }
@@ -936,11 +943,11 @@
   display: flex;
 }
 .left {
-  width: 656px;
+  width: 600px;
   height: 100%;
 }
 .right {
-  width: 656px;
+  width: 600px;
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -948,8 +955,6 @@
 .wrapper {
   color: #34a853;
   font-size: 2.1rem;
-  width: 656px;
-  height: 51px;
   display: block;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
@@ -960,22 +965,23 @@
   font-family: "League Spartan", sans-serifs;
   font-weight: 700;
   font-size: 4rem;
-  width: 656px;
-  height: 273px;
+  line-height: 1.3;
 }
 .shopnow {
+  display: inline-block;
+  margin: auto;
   font-size: 15px;
   border-radius: 5px;
-  text-align: center;
   padding: 17px 35px;
   color: #1d1d1d;
   font-weight: 500;
   font-family: "Inter", sans-serif;
   background-color: #ffbb38;
   text-decoration: none;
+  margin: 2rem 0;
 }
 .right img {
-  width: 650px;
+  width: 600px;
   height: 400px;
 }
 .last {
@@ -1143,47 +1149,40 @@
 }
 .hero-section {
   position: relative;
-  width: 100%;
-  height: 1900px;
   justify-content: space-between;
   display: flex;
-}
-.heroone {
-  position: relative;
   width: 100%;
-  height: 100%;
-  justify-content: center;
 }
 .container {
-  max-width: 1300px;
-  height: 1200px;
+  width: 100%;
+  height: 100%;
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
 }
 .spetty-hero {
+  max-height: 600px;
   width: 100%;
-  height: 100%;
-  padding: 2rem 0 0 0;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0 7.5px;
 }
 .spetty-content {
-  position: relative;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
   width: 100%;
   height: 100%;
-  justify-content: center;
+  align-items: center;
 }
 .hero-slide {
-  width: 1300px;
+  width: 100%;
   height: 600px;
-  opacity: 1;
-  transform: translate3d(0px, 0px, 0px);
+  display: flex;
 }
 .slide-wrapper {
-  height: 100%;
   width: 100%;
   justify-content: center;
   display: flex;

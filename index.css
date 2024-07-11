@@ -6,7 +6,6 @@
 }
 .center {
   justify-content: center;
-  height: 85px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -43,7 +42,7 @@
 }
 
 .jubotron-desktop {
-  height: 73px;
+  padding: 12px;
   width: 100%;
   background-color: #34a853;
   justify-content: center;
@@ -79,11 +78,18 @@
 .hidden {
   display: none !important;
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1200px) {
   .slide-wrapper {
     display: flex;
     flex-direction: column-reverse;
+    max-width: 100%;
+    height: 100%;
   }
+  .wrapper1 {
+    width: 100%;
+  }
+
   .slide-wrapper1 {
     display: flex;
     flex-direction: column-reverse;
@@ -93,10 +99,33 @@
     flex-direction: column-reverse;
   }
 }
+@media screen and (max-width: 500px) {
+  .right1 img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .wrapper1 {
+    width: 100%;
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 786px) {
   .jubotron-desktop {
     width: 100%;
     display: none;
+  }
+  .right img {
+    width: 250px;
+    height: 250px;
+  }
+  .right1 img {
+    width: 250px;
+    height: 250px;
+  }
+  .right2 img {
+    width: 250px;
+    height: 250px;
   }
   #mobile-side-menu-overlay {
     position: absolute;
@@ -128,7 +157,6 @@
 .header {
   position: relative;
   justify-content: space-between;
-  height: 350px;
   display: flex;
   width: 100%;
 }
@@ -140,7 +168,6 @@
 }
 
 .menu {
-  max-height: 54px;
   width: 100%;
   display: flex;
   background: rgba(52, 168, 83, 0.06);
@@ -961,18 +988,20 @@
 }
 .wrapper {
   color: #34a853;
-  font-size: 2.1rem;
+  font-size: 1.6rem;
   display: block;
   text-transform: uppercase;
-  font-family: "Inter", sans-serif;
+  font-family: "League Spartan", sans-serifs;
   font-weight: 500;
+  margin: 0px 0px 10px;
 }
 .wrapper1 {
   color: #1d1d1d;
   font-family: "League Spartan", sans-serifs;
   font-weight: 700;
-  font-size: 4rem;
-  line-height: 1.3;
+  font-size: 36px;
+  line-height: 1.1;
+  width: 100%;
 }
 .shopnow {
   display: inline-block;
@@ -988,8 +1017,6 @@
   margin: 2rem 0;
 }
 .right img {
-  max-width: 600px;
-  height: 400px;
   object-fit: contain;
   width: 100%;
 }
@@ -1163,6 +1190,7 @@
   width: 100%;
 }
 .container {
+  padding-top: 50px;
   width: 100%;
   height: 100%;
   position: relative;
@@ -1212,26 +1240,26 @@
   align-items: center;
 }
 .right1 img {
-  max-width: 600px;
-  height: 600px;
   width: 100%;
   object-fit: contain;
 }
 
 .wrapper-content {
   color: #34a853;
-  font-size: 2.1rem;
+  font-size: 1.6em;
   display: block;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
   font-weight: 500;
+  margin: 0px 0px 10px;
 }
 .wrapper-content1 {
   color: #1d1d1d;
   font-family: "League Spartan", sans-serifs;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 36px;
   line-height: 1.3;
+  width: 100%;
 }
 .slide-wrapper2 {
   max-width: 1200px;
@@ -1248,25 +1276,25 @@
   align-items: center;
 }
 .right2 img {
-  width: 100%;
-  object-fit: contain;
   max-width: 600px;
-  height: 600px;
+  object-fit: contain;
 }
 .wrapper-content3 {
   color: #34a853;
-  font-size: 2.1rem;
+  font-size: 1.6rem;
   display: block;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
   font-weight: 500;
+  margin: 0px 0px 10px;
 }
 .wrapper-content2 {
   color: #1d1d1d;
   font-family: "League Spartan", sans-serifs;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 36px;
   line-height: 1.3;
+  width: 100%;
 }
 .spanie {
   width: 1300px;

@@ -508,6 +508,7 @@
 .menu1:hover .list-text {
   background-color: white;
 }
+
 .dropdown-content:hover .setting2:hover a:hover {
   color: white;
   transition: all 0.5s;
@@ -1308,7 +1309,6 @@
   position: absolute;
   z-index: 10;
   height: 600px;
-  display: none;
 }
 .left1 {
   max-width: 600px;
@@ -1331,7 +1331,6 @@
   align-items: center;
   position: absolute;
   z-index: 0;
-  display: none;
 }
 .left2 {
   max-width: 600px;
@@ -1354,13 +1353,16 @@
   display: flex;
   gap: 6px;
   align-items: center;
+  position: absolute;
+  bottom: -600px;
+  z-index: 100;
 }
 .nutbam {
   display: block;
   width: 22px;
   height: 7px;
-  background-color: #34a853;
   border-radius: 30px;
+  background-color: #34a853;
   cursor: pointer;
 }
 .nutbam1 {
@@ -1368,7 +1370,7 @@
   display: block;
   width: 22px;
   height: 7px;
-  background-color: #34a853;
+  background-color: gainsboro;
   border-radius: 30px;
 }
 .nutbam2 {
@@ -1376,6 +1378,6 @@
   display: block;
   width: 22px;
   height: 7px;
-  background-color: #34a853;
   border-radius: 30px;
+  background-color: gainsboro;
 }

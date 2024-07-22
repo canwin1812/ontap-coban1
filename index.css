@@ -23,6 +23,12 @@
   display: flex;
   justify-content: center;
 }
+.hero-visible {
+  opacity: 1;
+}
+.hero-faded {
+  opacity: 0;
+}
 .wrapper-content {
   color: #34a853;
   font-size: 2.1em;
@@ -1364,6 +1370,9 @@
   border-radius: 30px;
   background-color: #34a853;
   cursor: pointer;
+}
+.transition-fading {
+  transition: opacity 1s ease;
 }
 .nutbam1 {
   cursor: pointer;

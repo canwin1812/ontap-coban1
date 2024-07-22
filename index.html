@@ -378,7 +378,7 @@
       <div class="spetty-hero">
         <div class="spetty-content">
           <div class="hero-slide">
-            <div class="hero-visible" style="opacity: 1;">
+            <div class="hero-visible transition-fading" id="slide-1">
               <div class="slide-wrapper">
                 <div class="left">
                   <span class="wrapper">Fresh Grocery</span>
@@ -392,7 +392,7 @@
                 </div>
               </div>
             </div>
-            <div class="hero-faded" style="opacity: 0;">
+            <div class="hero-faded transition-fading" id="slide-2">
               <div class="slide-wrapper1">
                 <div class="left1">
                   <span class="wrapper-content">Fresh Grocery</span>
@@ -406,7 +406,7 @@
                 </div>
               </div>
             </div>
-            <div class="hero-faded" style="opacity: 0;">
+            <div class="hero-faded transition-fading" id="slide-3">
               <div class="slide-wrapper2">
                 <div class="left2">
                   <span class="wrapper-content3">Fresh Grocery</span>
@@ -421,9 +421,9 @@
               </div>
             </div>
             <div class="spanie">
-              <span class="nutbam hero-visible" onclick="openNutBam"></span>
-              <span class="nutbam1"></span>
-              <span class="nutbam2"></span>
+              <span class="nutbam" onclick="showSlideOne()"></span>
+              <span class="nutbam1" onclick="showSlideTwo()"></span>
+              <span class="nutbam2" onclick="showSlideThree()"></span>
             </div>
           </div>
 
@@ -649,6 +649,49 @@
       }, 1000);
 
     }
+    function showSlideTwo() {
+      const slide1El = document.querySelector('#slide-1')
+      const slide2El = document.querySelector('#slide-2')
+      const slide3El = document.querySelector('#slide-3')
+      slide1El.classList.remove('hero-visible')
+      slide2El.classList.remove('hero-visible')
+      slide3El.classList.remove('hero-visible')
+      slide1El.classList.remove('hero-faded')
+      slide2El.classList.remove('hero-faded')
+      slide3El.classList.remove('hero-faded')
+      slide1El.classList.add('hero-faded')
+      slide2El.classList.add('hero-visible')
+      slide3El.classList.add('hero-faded')
+    }
+    function showSlideOne() {
+      const slide1El = document.querySelector('#slide-1')
+      const slide2El = document.querySelector('#slide-2')
+      const slide3El = document.querySelector('#slide-3')
+      slide1El.classList.remove('hero-visible')
+      slide2El.classList.remove('hero-visible')
+      slide3El.classList.remove('hero-visible')
+      slide1El.classList.remove('hero-faded')
+      slide2El.classList.remove('hero-faded')
+      slide3El.classList.remove('hero-faded')
+      slide1El.classList.add('hero-visible')
+      slide2El.classList.add('hero-faded')
+      slide3El.classList.add('hero-faded')
+    }
+    function showSlideThree() {
+      const slide1El = document.querySelector('#slide-1')
+      const slide2El = document.querySelector('#slide-2')
+      const slide3El = document.querySelector('#slide-3')
+      slide1El.classList.remove('hero-visible')
+      slide2El.classList.remove('hero-visible')
+      slide3El.classList.remove('hero-visible')
+      slide1El.classList.remove('hero-faded')
+      slide2El.classList.remove('hero-faded')
+      slide3El.classList.remove('hero-faded')
+      slide1El.classList.add('hero-faded')
+      slide2El.classList.add('hero-faded')
+      slide3El.classList.add('hero-visible')
+    }
+
   </script>
 </body>
 

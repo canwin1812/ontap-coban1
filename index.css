@@ -11,6 +11,161 @@
   display: flex;
   align-items: center;
 }
+.grocery-section {
+  padding-top: 4rem;
+  max-width: 1200px;
+  margin: auto;
+}
+.col-md6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.wrapper-left {
+  border: none;
+  background: none;
+  padding: 2rem 2rem 2rem;
+  background: url(https://quomodosoft.com/html/ecoshop/assets/images/homepage-one/grocery-bg.webp);
+  background-size: cover;
+}
+.wrapper-right {
+  border: none;
+  background: none;
+  padding: 2rem 2rem 2rem;
+  background-size: cover;
+  background: url(https://quomodosoft.com/html/ecoshop/assets/images/homepage-one/grocery-bg-1.webp);
+}
+.wrapper-subtitle {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.details-wrapper {
+  color: #1d1d1d;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 2.3rem;
+  line-height: 1.2;
+}
+.ratings1 {
+  display: flex;
+  align-items: center;
+  margin: 0.6rem 0;
+}
+.product-details1 {
+  font-size: 1.3rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+}
+.price1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 1rem 0;
+}
+.price-cut1 {
+  text-decoration: line-through;
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+.new-price1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+}
+.product-cart1 {
+  width: 100%;
+  background-color: #cfe2ff;
+  border-radius: 3px;
+}
+.product-btn1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  text-decoration: none;
+  color: #34a853;
+  padding: 10px 10px;
+}
+.btn-text1 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.product-top-selling {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+}
+.row-g-5 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.row-g-6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-gm-6 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.product-wrapper-selling {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  position: relative;
+  padding: 0.7rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.top-selling-section {
+  max-width: 1200px;
+  margin: auto;
+}
+.container-selling {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.section-title-selling {
+  max-width: 1200px;
+  margin: auto;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.section-title-selling h3 {
+  font-size: 2.2rem;
+  color: #1d1d1d;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+}
+.view2 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  position: relative;
+}
 .flash-sale {
   width: 100%;
   position: relative;
@@ -26,11 +181,91 @@
   max-width: 1200px;
   margin: auto;
   align-items: center;
-  display: flex;
   justify-content: space-between;
   margin-bottom: 28px;
   padding-left: 12px;
   padding-right: 12px;
+  position: relative;
+  padding: 3rem 4rem 4rem;
+  background: url(https://quomodosoft.com/html/ecoshop/assets/images/homepage-one/flash_sale.webp)
+    no-repeat center / cover;
+}
+.countdown-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: unset;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.number {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  font-size: 1.5rem;
+  background: #ffffff;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.text1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d1d1d;
+}
+.flash-sale-content {
+  width: 100%;
+}
+.wrapper-heading {
+  font-size: 3rem;
+  color: #1d1d1d;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+.wrapper-details {
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0;
+  color: #1d1d1d;
+}
+.discount-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  width: 9rem;
+  height: 9rem;
+  position: absolute;
+  border-radius: 50%;
+  background: #ffbb38;
+  color: #1d1d1d;
+  text-align: center;
+  bottom: 2rem;
+  right: 4rem;
+}
+.discount-primary {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.discount-text {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.discount-inner-text {
+  font-size: 1.5rem;
 }
 .product-fresh {
   width: 100%;
@@ -63,6 +298,25 @@
   opacity: 0;
   pointer-events: auto;
 }
+.dropdown-xl4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  position: absolute;
+  transition: all 0.4s;
+  top: 2rem;
+  overflow: hidden;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: auto;
+}
+.product-wrapper-selling:hover > .product-igm .dropdown-xl4 {
+  opacity: 1;
+  transform: translateX(1.5rem);
+}
 .col-xl3:hover > .col-xl3-img .dropdown-xl3 {
   opacity: 1;
   transform: translateX(-1.5rem);
@@ -78,6 +332,14 @@
   color: white;
 }
 .product-btn:hover {
+  color: white;
+}
+.product-cart1:hover {
+  background-color: #34a853;
+  transition: all 0.5s;
+  color: white;
+}
+.product-btn1:hover {
   color: white;
 }
 .cart-item {
@@ -116,6 +378,7 @@
   cursor: pointer;
   background-color: white;
   width: 100%;
+  border: 1px solid white;
 }
 .fresh-info {
   display: flex;
@@ -532,6 +795,43 @@
     width: 100%;
     display: none;
   }
+  .row-g-5 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    display: grid;
+  }
+  .countdown-item {
+    width: 20px;
+  }
+  .flash-container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .countdown-section {
+    gap: 3rem;
+    margin-bottom: 2.5rem;
+    padding-left: 15px;
+  }
+  .wrapper-heading {
+    font-size: 30px;
+  }
+  .number {
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 20px;
+  }
+  .text1 {
+    font-size: 15px;
+  }
+
+  .flash-sale-section {
+    height: auto;
+    padding: 2.5rem;
+    background-position: left;
+  }
+
+  .discount-item {
+    display: none;
+  }
   .lg-4 {
     background-size: cover;
   }
@@ -542,7 +842,7 @@
     background-size: cover;
   }
   .fresh-section-content {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     display: grid;
   }
   .lg-4 {
@@ -1449,6 +1749,32 @@
   background-color: #ffbb38;
   text-decoration: none;
   margin: 2rem 0;
+}
+.shopnow6 {
+  display: inline-block;
+  margin: auto;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  color: #1d1d1d;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  background-color: #ffbb38;
+  text-decoration: none;
+  margin: 3.5rem 0 0 0;
+}
+.shopnow7 {
+  display: inline-block;
+  margin: auto;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  color: #1d1d1d;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  background-color: #34a853;
+  text-decoration: none;
+  margin: 3.5rem 0 0 0;
 }
 .shopnow1 {
   display: inline-block;
